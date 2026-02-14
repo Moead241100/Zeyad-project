@@ -1,0 +1,91 @@
+/* القواعد العامة */
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  background-color: #000000;
+  color: #222;
+  margin: 0;
+  padding: 0;س
+  line-height: 1.6;
+}
+
+/* رأس الصفحة */
+header {
+  background-color: #474747;
+  color: #521818;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* التنقل */
+nav {
+  background-color: #b71c1c;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe082;
+}
+
+/* الأقسام */
+section {
+  background-color: #fff;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* صورة رئيسية */
+.main-img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 4px solid #d32f2f;
+}
+
+/* النماذج */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #d32f2f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #b71c1c;
+}
